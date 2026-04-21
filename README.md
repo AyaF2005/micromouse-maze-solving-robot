@@ -1,11 +1,7 @@
-# MicroMouse -Autonomous Maze-Solving Robot
+# MicroMouse — Autonomous Maze-Solving Robot
 
 An autonomous robot that navigates and solves an unknown maze from start to center
 using real-time wall sensing, Flood-Fill BFS pathfinding, and PD motor control.
-
-Built for the IEEE-style MicroMouse competition at Birzeit University.
-Course: ENCS4380 — Interfacing Techniques | Academic Year 2025–2026
-Supervised by: Dr. Wasel Ghanem
 Team: Aya Fares, Nagham Massis, Alzahra Nassif, Marah Hamarsheh
 
 ---
@@ -85,4 +81,22 @@ To run in MMS:
 - Always add voltage protection before connecting the MCU (we burned one ESP32
   to back-EMF spikes from the motor driver)
 - Unit test every component before system integration
-- Sensor fusion (gyro + walls) significantly outperforms single-sensor appro
+- Sensor fusion (gyro + walls) significantly outperforms single-sensor approaches
+- A live tuning dashboard makes PD calibration dramatically faster
+
+---
+
+## Future Work
+
+- A* heuristic layer over Flood-Fill for smarter pathfinding
+- Sprint-phase speed profiling and diagonal movement
+- EEPROM maze persistence across power cycles
+- Lighter PETG or carbon-fiber-reinforced chassis for better agility
+
+---
+
+## Project Management
+
+Full timeline, component photos, testing videos, and task tracking documented on Trello.
+6 phases: Research → Design → Hardware → 3D Printing → Mechanical → Software & Test
+(December 2025 – February 2026)
