@@ -1,4 +1,4 @@
-# MicroMouse — Autonomous Maze-Solving Robot
+# MicroMouse -Autonomous Maze-Solving Robot
 
 An autonomous robot that navigates and solves an unknown maze from start to center
 using real-time wall sensing, Flood-Fill BFS pathfinding, and PD motor control.
