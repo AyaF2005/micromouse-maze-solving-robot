@@ -3,6 +3,7 @@
 An autonomous robot that navigates and solves an unknown maze from start to center
 using real-time wall sensing, Flood-Fill BFS pathfinding, and PD motor control.
 Team: Aya Fares, Nagham Massis, Alzahra Nassif, Marah Hamarsheh
+https://trello.com/invite/b/69e7552f05ced2e5efe4f252/ATTIe13161c020e5acdbadc104f9fcfbb18a1BC6D11D/micromouse-autonomous-maze-solving-robot
 
 ---
 
