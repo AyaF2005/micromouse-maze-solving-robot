@@ -1,4 +1,4 @@
-# MicroMouse — Autonomous Maze-Solving Robot
+# MicroMouse - Autonomous Maze-Solving Robot
 
 An autonomous robot that navigates and solves an unknown maze from start to center
 using real-time wall sensing, Flood-Fill BFS pathfinding, and PD motor control.
@@ -19,7 +19,7 @@ then moves to the best adjacent cell. This cycle repeats until it reaches the go
 
 | Component | Role |
 |-----------|------|
-| ESP32-WROOM-32 | Main microcontroller — dual-core 240MHz, WiFi, dual I2C |
+| ESP32-WROOM-32 | Main microcontroller - dual-core 240MHz, WiFi, dual I2C |
 | VL53L0X x3 (Front/Left/Right) | Time-of-Flight LiDAR wall detection |
 | MPU6050 IMU | Gyroscope for straight-line correction and 90° turns |
 | DC Gear Motors x2 + Encoders | Drive system with tick-based cell counting |
